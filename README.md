@@ -16,8 +16,11 @@ location(GPS) and human presence(PIR).
    Private View one can see the charts created for the data}.
    
 6) Then this JSON data gets exported from cloud and is hosted on a server(MongoDB){I tried both local and remote python files are 
-   included in experiments directory} on mLab webite(One have to enable API key and add it in your python code). Finally we have a hosted   
-   cloud server which provides us usefull information.
+   included in experiments directory} on mLab webite(One have to enable API key and add it in your python code). Finally we have a 
+   hosted cloud server which provides us usefull information.
+   
+   The running mongo instance on cloud(mlab) would look like this:
+   ![mlab](https://user-images.githubusercontent.com/19959305/38469917-bff61dec-3b79-11e8-96d7-510a723d747c.png)
    
 7) In pi directory some codes are given for same operation in RaspberryPi. 
    
