@@ -4,15 +4,18 @@
    location(GPS) and human presence(PIR).
    
    These sensors looks like below:
+   
    ![devices](https://user-images.githubusercontent.com/19959305/38469969-4c0292d4-3b7a-11e8-9463-67ebd4c2493a.png)
    
 2) Connected Arduino with the these sensors on the corresponding pins via sensor board and connected it with the computer.
    Arduino and Sensor board looks like below:
+   
    ![sensor](https://user-images.githubusercontent.com/19959305/38470016-dc87c504-3b7a-11e8-8118-782daebe70e7.png)
 
 3) Using Arduino Software a code is generated in setup and loop which gives instruction to the arduino board and read and write on the 
    corresponding pin.
    The overall setup would be like shown:
+   
    ![circuit](https://user-images.githubusercontent.com/19959305/38470170-8f8f1502-3b7c-11e8-93f0-779d428f04cc.jpeg)
    
 4) Rest API is used and an online website for storing the data(thingspeak.com [here](https://thingspeak.com/)) and a channel is 
