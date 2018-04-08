@@ -35,7 +35,7 @@
    included in experiments directory} on mLab webite(One have to enable API key and add it in your python code). Finally we have a 
    hosted cloud server which provides us usefull information.
    
-   - The running mongo instance on cloud(mlab) would look like this:
+   - The running mongo instance on cloud([mlab](https://mlab.com/)) would look like this:
    ![mlab](https://user-images.githubusercontent.com/19959305/38469917-bff61dec-3b79-11e8-96d7-510a723d747c.png)
    
    - JSON data that would be visible in mongo instance created is shown:
