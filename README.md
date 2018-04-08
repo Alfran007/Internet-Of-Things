@@ -1,7 +1,6 @@
 # Internet-Of-Things
 
-*  Used sensors to monitor temperature(**LM35D**), light intensity(**LDR**), humidity(**DHT11**), magnetic field(**REED**),  
-   optocoupler(**PC817**), power(**Switch**), location(**GPS**) and human presence(**PIR**).
+*  Used sensors to monitor temperature(**LM35D**), light intensity(**LDR**), humidity(**DHT11**), magnetic field(**REED**), optocoupler(**PC817**), power(**Switch**), location(**GPS**) and human presence(**PIR**).
    
    - These sensors looks like below:
    
@@ -14,26 +13,20 @@
    
    ![sensor](https://user-images.githubusercontent.com/19959305/38470016-dc87c504-3b7a-11e8-8118-782daebe70e7.png)
 
-*  Using Arduino Software a code is generated in setup and loop which gives instruction to the arduino board and read and write on the 
-   corresponding pin.
+*  Using Arduino Software a code is generated in setup and loop which gives instruction to the arduino board and read and write on the corresponding pin.
 
    - The overall setup would be like shown:
    
    ![circuit](https://user-images.githubusercontent.com/19959305/38470170-8f8f1502-3b7c-11e8-93f0-779d428f04cc.jpeg)
    
-*  Rest API is used and an online website for storing the data([here](https://thingspeak.com/)) and a channel is 
-   created having the corresponding fields same as the data we get from Arduino via sensors.
+*  Rest API is used and an online website for storing the data([here](https://thingspeak.com/)) and a channel is created having the corresponding fields same as the data we get from Arduino via sensors.
    
-*  This data is stored and sent to cloud(on our channel) using wifi(ESP8266){which gets connected with our hotspot} or we can use 
-   sim(SIM800), API key of site is used for authentication and finally the data gets stored in JSON format on our channel{In Public 
-   and Private View one can see the charts created for the data}.
+*  This data is stored and sent to cloud(on our channel) using wifi(ESP8266){which gets connected with our hotspot} or we can use sim(SIM800), API key of site is used for authentication and finally the data gets stored in JSON format on our channel{In Public and Private View one can see the charts created for the data}.
    
    - Data analysis looks like below:
    ![think](https://user-images.githubusercontent.com/19959305/38470067-69b499f2-3b7b-11e8-996f-6720a904193c.png)
    
-*  Then this JSON data gets exported from cloud and is hosted on a server(MongoDB){I tried both local and remote python files are 
-   included in experiments directory} on mLab webite(One have to enable API key and add it in your python code). Finally we have a 
-   hosted cloud server which provides us usefull information.
+*  Then this JSON data gets exported from cloud and is hosted on a server(MongoDB){I tried both local and remote python files are included in experiments directory} on mLab webite(One have to enable API key and add it in your python code). Finally we have a hosted cloud server which provides us usefull information.
    
    - The running mongo instance on cloud([mlab](https://mlab.com/)) would look like this:
    ![mlab](https://user-images.githubusercontent.com/19959305/38469917-bff61dec-3b79-11e8-96d7-510a723d747c.png)
