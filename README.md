@@ -18,7 +18,7 @@
    
    ![circuit](https://user-images.githubusercontent.com/19959305/38470170-8f8f1502-3b7c-11e8-93f0-779d428f04cc.jpeg)
    
-4) Rest API is used and an online website for storing the data(thingspeak.com [here](https://thingspeak.com/)) and a channel is 
+4) Rest API is used and an online website for storing the data([here](https://thingspeak.com/)) and a channel is 
    created having the corresponding fields same as the data we get from Arduino via sensors.
    
 5) This data is stored and sent to cloud(on our channel) using wifi(ESP8266){which gets connected with our hotspot} or we can use 
@@ -42,4 +42,4 @@
    
 
    
- ### We use this type information in various filds like for false claims in transport for the damaged products.
+ ### We use this type of project in various filds like for false claims in transport for the damaged products.
