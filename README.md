@@ -46,4 +46,4 @@
    
 
    
- ### We use this type of project in various filds like for false claims in transport for the damaged products.
+ ### We can use this type of project in various fields, like for detecting false claims in transport system for damaged products.
