@@ -1,6 +1,6 @@
 # Internet-Of-Things
 
-*  1. Used sensors to monitor temperature(**LM35D**), light intensity(**LDR**), humidity(**DHT11**), magnetic field(**REED**),  
+*  1 )  Used sensors to monitor temperature(**LM35D**), light intensity(**LDR**), humidity(**DHT11**), magnetic field(**REED**),  
    optocoupler(**PC817**), power(**Switch**), location(**GPS**) and human presence(**PIR**).
    
    - These sensors looks like below:
