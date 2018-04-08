@@ -1,6 +1,6 @@
 # Internet-Of-Things
 
-*1) Used sensors to monitor temperature(**LM35D**), light intensity(**LDR**), humidity(**DHT11**), magnetic field(**REED**),  
+* 1) Used sensors to monitor temperature(**LM35D**), light intensity(**LDR**), humidity(**DHT11**), magnetic field(**REED**),  
    optocoupler(**PC817**), power(**Switch**), location(**GPS**) and human presence(**PIR**).
    
    - These sensors looks like below:
@@ -41,7 +41,7 @@
    ![data](https://user-images.githubusercontent.com/19959305/38470120-1785b142-3b7c-11e8-9648-ec9a1365c9c2.png)
 
    
-7) In pi directory some codes are given for same operation in RaspberryPi. 
+7) In pi directory some codes are given for same operation in __RaspberryPi__. 
    
 
    
